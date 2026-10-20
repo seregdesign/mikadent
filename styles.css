@@ -165,7 +165,7 @@ svg use { pointer-events: none; }
   transition: transform .2s ease;
 }
 .rating:hover { transform: rotate(0deg) scale(1.03); }
-.rating svg { width: 32px; height: 32px; flex: none; }
+.rating svg { width: 32px; height: 32px; flex: none; } .asof { display: block; margin-top: 2px; font-size: 11px; font-weight: 500; line-height: 1.2; opacity: .75; }
 
 /* ---------- services ---------- */
 .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 84px 20px; }
